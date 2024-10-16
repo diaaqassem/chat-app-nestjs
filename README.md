@@ -98,5 +98,5 @@ This is a real-time chat application built using **NestJS**, **Socket.IO**, and 
 1. Clone the repository:
    ```bash
    git clone https://github.com/diaaqassem/chat-app-nestjs.git
-   cd chat-app
+   cd chat-app-nestjs
 
