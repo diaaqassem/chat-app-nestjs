@@ -93,6 +93,14 @@ This is a real-time chat application built using **NestJS**, **Socket.IO**, and 
 - Validation and serialization with **class-validator** and **class-transformer**
 - Environment configuration using **dotenv**
 
+## create .env file
+DB_URL = 'mongodb://127.0.0.1:27017/chat-app'
+
+GOOGLE_CLIENT_ID = ''
+# The secret key is not to be shared with anyone, ever!
+GOOGLE_SECRET = ''
+
+APP_URL = 'http://localhost:5000/api'
 ## Installation
 
 1. Clone the repository:
