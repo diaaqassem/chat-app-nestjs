@@ -71,3 +71,32 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+# Chat App
+
+This is a real-time chat application built using **NestJS**, **Socket.IO**, and **MongoDB**. The app supports user authentication via Google OAuth and local strategies, and uses web sockets for real-time messaging.
+
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Running the App](#running-the-app)
+- [Test](#test)
+- [Tech Stack](#tech-stack)
+- [License](#license)
+
+## Features
+- Real-time messaging using **Socket.IO**
+- User authentication with **Google OAuth** and **local passport** strategies
+- **Session management** using `express-session`
+- Database integration using **MongoDB** with **Mongoose**
+- Role-based access control
+- Validation and serialization with **class-validator** and **class-transformer**
+- Environment configuration using **dotenv**
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/diaaqassem/chat-app-nestjs.git
+   cd chat-app
+
